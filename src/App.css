@@ -3,31 +3,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh; /* Full viewport height */
 }
 
 .todo-list {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  background: #fff; /* White background */
+  padding: 20px;  /* Padding around the content */
+  border-radius: 8px; /* Rounded corners */ 
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 300px; /* Fixed width */
 }
 
 .todo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Space between text and buttons */
+  align-items: center; /* Center alignment */
+  margin-bottom: 10px; /* Spacing between items */
 }
 
 .todo button {
-  margin-left: 5px;
+  margin-left: 5px; /* Spacing between buttons */
 }
 
 .input {
-  padding: 10px;
-  width: calc(100% - 22px);
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: 10px; /* Padding inside the input field */
+  width: calc(100% - 22px); /* Full width minus padding and border */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
 }
