@@ -1,7 +1,7 @@
 import React, { useState } from 'react' // Importing React and the useState hook
 import './App.css';      // Importing the css file for styling
-import TodoForm from './TodoForm'; //Importing the TodoForm component
-import TodoList from './TodoList'; //Importing the TodoList component
+import TodoForm from './components/TodoForm'; //Importing the TodoForm component
+import TodoList from './components/TodoList'; //Importing the TodoList component
 
 function App() {
   // Initializing state with some default to-do items
